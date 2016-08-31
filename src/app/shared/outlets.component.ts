@@ -6,13 +6,13 @@ import { Component }  from '@angular/core';
   template: `
   <div>
       <div style="background: rgba(55, 67, 110, 0.25); margin:10px; padding:5px; color:#fff; width:30%; display:inline-block; vertical-align: top">
-        <span>Outlet A</span>
-        <router-outlet name="outletA"></router-outlet>
+        <span>Primary outlet </span>
+        <router-outlet></router-outlet>
       </div>
       
       <div style="background: rgba(55, 67, 110, 0.25); margin:10px; padding:5px; color:#fff; width:30%; display:inline-block; vertical-align: top">
-        <span>Primary outlet </span>
-        <router-outlet></router-outlet>
+        <span>Outlet A</span>
+        <router-outlet name="outletA"></router-outlet>
       </div>
       
       <div style="background: rgba(55, 67, 110, 0.25); margin:10px; padding:5px; color:#fff; width:30%; display:inline-block; vertical-align: top">
