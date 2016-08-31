@@ -46,7 +46,7 @@ const lazyNamedRoutes: Routes = [
         loadChildren: 'app/lazy-named/lazy-named-level2/lazy-named-level2.module'
       },
       ...outletARoutes,
-      ...outletARoutes
+      ...outletBRoutes
     ]
   }
 ];
