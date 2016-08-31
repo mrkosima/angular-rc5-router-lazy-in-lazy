@@ -2,7 +2,6 @@ Angular RC5 router experiments with modules and lazy loading
 --
 to init project:
 `npm install`
-  
 `npm start`
 --
 
